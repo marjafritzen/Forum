@@ -1,0 +1,45 @@
+header {
+    background-color: #a7286e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#btnheader {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #a7286e;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#btnheader:hover {
+    background-color: #cfb9cc;
+    color: white;
+    cursor: pointer;
+}
