@@ -91,4 +91,3 @@ router.post('/logar', async (req, res) => {
 });
 
 module.exports = router;
-
