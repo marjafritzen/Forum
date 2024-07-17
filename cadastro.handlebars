@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="stylesheet" href="/styles/footer.css">
-   <link rel="stylesheet" href="/styles/cadastro.css">
-  <title>Loja</title>
-</head>
-
-<body>
-  {{>cadastro}}
-  {{{body}}}
-  {{>footer}}
-</body>
-
-</html>
+ <div class="cadastro">
+        <h2>Cadastro</h2>
+        <form>
+          <label for="usuario">Nome de Usuário</label>
+          <input type="text">
+    
+          <label for="email">E-mail</label>
+          <input type="email">
+    
+          <label for="senha">Senha</label>
+          <input type="password">
+    
+          <label for="confirma-senha">Confirme a Senha</label>
+          <input type="password">
+    
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
