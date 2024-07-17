@@ -11,6 +11,17 @@ class PostagemDAO {
       throw error; // Relance o erro para que o chamador possa lidar com ele
     }
   }
+
+  // Obtém todas as postagens
+  async getAll() {
+    try {
+      const postagens = await Postagem.findAll();
+      return postagens; // Retorna todas as postagens encontradas
+    } catch (error) {
+      console.error('Erro ao buscar todas as postagens:', error);
+      throw error; // Relance o erro para que o chamador possa lidar com ele
+    }
+  }
 }
 
 module.exports = new PostagemDAO();
