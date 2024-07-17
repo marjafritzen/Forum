@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -36,15 +36,27 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Estilos personalizados para os tópicos */
+.topicos {
+    width: 700px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 #topics {
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0.45, 0.45, 0.45, 0.45);
     margin-bottom: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 #topics h2 {
